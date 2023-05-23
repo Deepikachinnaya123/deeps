@@ -2,17 +2,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Build steps here
+               echo "hi this is build"
             }
         }
         stage('Test') {
             steps {
-                // Test steps here
+                echo "hi this is test"
             }
         }
         stage('sonar') {
             steps {
-                // Deployment steps here
+                 echo "hi this is sonar"
             }
         }
     }
