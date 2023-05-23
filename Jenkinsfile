@@ -18,7 +18,7 @@ pipeline {
                 // Test steps here
             }
         }
-        stage('Deploy') {
+        stage('Deployghgjg') {
             agent {
                 label 'deploy-agent' // Specify the label of the agent or use a custom label expression
             }
